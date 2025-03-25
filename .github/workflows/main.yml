@@ -35,3 +35,12 @@ jobs:
       
     - name: Build with Gradle Wrapper
       run: ./gradlew build
+
+    - name: Gradle Init
+      run: demo-ci/gradlew init
+    - name: Gradle Tasks
+      run: demo-ci/gradlew tasks
+    - name: Gradle Build
+      run: demo-ci/gradlew build
+    - name: Gradle Tasks
+      run: demo-ci/gradlew tasks
