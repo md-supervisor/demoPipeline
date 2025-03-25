@@ -36,6 +36,9 @@ jobs:
 #    - name: Build with Gradle Wrapper
 #      run: ./gradlew build
 
+    - name: Show gradle directory
+      run: ls gradle/wrapper
+
     - name: Gradle Version
       run: ./gradlew --version
     - name: Gradle Init
