@@ -33,14 +33,16 @@ jobs:
     - name: Show directory content
       run: ls
       
-    - name: Build with Gradle Wrapper
-      run: ./gradlew build
+#    - name: Build with Gradle Wrapper
+#      run: ./gradlew build
 
+    - name: Gradle Version
+      run: ./gradlew --version
     - name: Gradle Init
-      run: demo-ci/gradlew init
+      run: ./gradlew init
     - name: Gradle Tasks
-      run: demo-ci/gradlew tasks
+      run: ./gradlew tasks
     - name: Gradle Build
-      run: demo-ci/gradlew build
+      run: ./gradlew build
     - name: Gradle Tasks
-      run: demo-ci/gradlew tasks
+      run: ./gradlew tasks
